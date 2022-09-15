@@ -30,10 +30,13 @@
                     <a class="nav-link text-primary fw-bolder" aria-current="page" href="#">Início</a>
                   </li>
                   <li class="nav-item px-2">
-                    <a class="nav-link text-primary fw-bolder" href="#">Sobre</a>
+                    <a class="nav-link text-primary fw-bolder" href="#historia">Sobre</a>
                   </li>
                   <li class="nav-item px-2">
-                    <a class="nav-link text-primary fw-bolder" href="#">Contato</a>
+                    <a class="nav-link text-primary fw-bolder" href="#servico">Produtos</a>
+                  </li>
+                  <li class="nav-item px-2">
+                    <a class="nav-link text-primary fw-bolder" href="#contato">Contato</a>
                   </li>
                 
                 </ul>
@@ -43,11 +46,11 @@
 
           <!--Content-->
           <div class="container py-5" id="content">
-            <div class="row py-5 mt-5 align-items-center">
+            <div class="row py-5 mt-3 align-items-center">
                 <div class="col-md-6 p-5 text-info">
                     <h1 class="fw-bold display-2 text-body">SUPER CALHA</h1>
-                    <h3 class="fs-4 display-3 text-body fw-semibold">Calhas - Rufos - Condutores</h3>
-                    <button type="button" class="btn btn-outline-danger mt-2 fw-bold"><i class="bi bi-whatsapp px-2 fw-bold"></i>Fale Conosco</button>
+                    <h3 class="fs-4 display-3 text-body fw-semibold">CALHAS - RUFOS - CONDUTORES</h3>
+                    <button type="button" class="btn btn-outline-danger mt-2 fw-bold" class="bi bi-whatsapp px-2 fw-bold"><a class="nav-link" href="#contato">Fale Conosco</a></button>
                 </div>
                 <div class="col-md-6 py-5 mt-4">
                   <img class="img-fluid" src="img/Logotipo2.bmp" alt="" width="400" height="500">
@@ -57,9 +60,9 @@
           </div>
 
           <!--Sobre-->
-          <section class="sobre">
+          <section class="sobre" id="sobre">
             <div class="container-fluid">
-              <div class="row p-5 align-items-center">
+              <div class="row py-5 mt-3 align-items-center">
                 <div class="col-md-6">
                   <img class="img-fluid" src="img/img1.jpg" alt="">
                 </div>
@@ -75,7 +78,7 @@
           </section>
 
           <!--Serviços-->
-          <section class="servico">
+          <section class="servico" id="servico">
             <div class="container p-4">
               <div class="row">
                 <div class="col-12">
@@ -97,10 +100,10 @@
                 </div>
                 <div class="col-md-3 mt-2">
                   <div class="card">
-                    <img src="img/acessorios.jpg" class="card-img-top" alt="..." style="width: 130px; height: 130px;">
+                    <img src="img/acessorios.jpg" class="card-img-top" alt="..."> 
                     <div class="card-body text-center position-relative">
                       <h5 class="card-title">Acessórios</h5>
-                      <p class="card-text">Suportes,bocal,rebites e P.U</p>
+                      <p class="card-text">Suportes,bocal,rebites,parafusos e P.U</p>
                       <a href="#" class="btn btn-outline-primary">Saiba mais</a>
                     </div>
                   </div>
@@ -130,7 +133,7 @@
           </section>
 
           <!--Historia-->
-          <section class="historia">
+          <section class="historia" id="historia">
             <div class="container text-center p-4">
               <div class="row py-4">
                 <div class="col-12 mb-4">
@@ -205,6 +208,43 @@
             </div>
 
           </section>
+          <section class="contato" id="contato">
+            <div class="container p-5">
+              <div class="row py-5">
+                <div class="col-12">
+                  <h1 class="fw-bold mt-3 text-center">Fale Conosco</h1>
+                  <h4 class="fw-bold mt-2 text-center"><i class="bi bi-whatsapp p-2"></i>(35)98898-1198</h4>
+                </div>
+
+              </div>
+              <div class="row py-2">
+                <div class="card">
+                  <div class="card-body">
+                    <div class="row g-3">
+                      <p class="text-center fw-bold">Ou nos envie uma messagem que entraremos em contato</p>
+                      <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Seu Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      </div>
+                      <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Sua Messagem</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    </div>
+                    <div class="row mt-2">
+                      <div class="col-12">
+                        <button type="submit" class="btn btn-outline-primary">Enviar sua messagem</button>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </section>
          
             <footer class="rodape">
               <div class="container text-center">
@@ -223,10 +263,13 @@
                         <a class="nav-link fw-lighter text-black" aria-current="page" href="#">Início</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link fw-lighter text-black" href="#">Sobre</a>
+                        <a class="nav-link fw-lighter text-black" href="#historia">Sobre</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link fw-lighter text-black" href="#">Contato</a>
+                        <a class="nav-link fw-lighter text-black" href="#servico">Produtos</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fw-lighter text-black" href="#contato">Contato</a>
                       </li>
                       
                     </ul>
@@ -242,6 +285,9 @@
                       </li>
                       <li class="nav-item">
                         <a class="nav-link fw-lighter text-black" href="#">Condutores</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link fw-lighter text-black" href="#">Acessórios</a>
                       </li>
                      
                     </ul>
